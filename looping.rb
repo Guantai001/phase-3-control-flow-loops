@@ -28,8 +28,16 @@ def fizzbuzz_printer
 end
 
 def reverse_string(str)
-  # your code here
-  str.reverse
-end
 
+# reverse the string using a loop
+
+# your code here
+
+  i = str.length - 1
+  new_str = ""
+  while i >= 0
+    new_str += str[i]
+    i -= 1
+  end
+  new_str
 end
